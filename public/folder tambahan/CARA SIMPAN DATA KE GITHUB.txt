@@ -1,0 +1,47 @@
+git config --global user.email "rionoharefa17@gmail.com"
+git init
+git add .
+git remote add origin https://github.com/rionoharefa/project-frontend.git
+git commit -m "first commit"
+git push -u origin master
+
+edittt 2
+git add .
+git commit -m "data ke 2"
+git push
+
+
+edit 3
+git add .
+git commit -m "ubah ke 3 yaa"
+git push
+
+edit 4 
+git add .
+git commit -m "ubah ke 4 oke"
+git push
+
+ketika ada perubahan data di github
+cara
+menyesuaikan data yg telah diubah di repo github dengan folder local :
+git pull
+
+echo "# bengkel-laravel" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rionoharefa/bengkel-laravel.git
+git push -u origin main
+
+
+git remote add origin https://github.com/rionoharefa/bengkel-laravel.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+
