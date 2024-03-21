@@ -1,0 +1,80 @@
+// tutorial backup ke 2
+.page-details {
+  h5 {
+    font-weight: 300;
+    font-size: 18px;
+    color: #0c0d36;
+  }
+  .store-gallery {
+    margin-top: 20px;
+
+    img {
+      border-radius: 8px;
+    }
+
+    .thumbnail-image {
+      margin-bottom: 20px;
+      border: 2px solid transparent;
+
+      &:hover,
+      &.active {
+        border: 2px solid #ff7158;
+      }
+    }
+  }
+
+  .store-heading {
+    margin-bottom: 10px;
+
+    h1 {
+      font-weight: normal;
+      font-size: 24px;
+      color: #0c0d36;
+      line-height: 36px;
+      margin-bottom: 0;
+    }
+    .owner {
+      font-weight: normal;
+      font-size: 14px;
+      color: #979797;
+      line-height: 21px;
+      margin-bottom: 8px;
+    }
+    .price {
+      font-weight: 500;
+      font-size: 18px;
+      color: #ff7158;
+      line-height: 27px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .store-description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #525252;
+  }
+
+  .store-review {
+    .media {
+      img {
+        max-width: 50px;
+        margin-top: 7px;
+      }
+    }
+    .media-body {
+      font-weight: normal;
+      font-size: 16px;
+      color: #525252;
+      line-height: 180%;
+      margin-bottom: 20px;
+
+      h5 {
+        font-weight: 300;
+        font-size: 16px;
+        color: #0c0d36;
+      }
+    }
+  }
+}

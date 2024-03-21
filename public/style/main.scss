@@ -1,0 +1,34 @@
+// Import Bootstrap 4 Library
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+@import "global";
+@import "fonts";
+@import "navbar";
+
+@import "pages/home";
+
+@import "components/categories";
+@import "components/products";
+// selesai Tutorial Ke 1
+
+@import "components/breadcrumbs";
+@import "pages/details";
+@import "transitions/slide-fade";
+// selesai Tutorial Ke 2
+
+@import "pages/cart";
+@import "pages/success";
+// selesai Tutorial Ke 3
+
+@import "pages/auth";
+// selesai Tutorial Ke 4
+
+@import "pages/dashboard";
+@import "components/card";
+@import "components/card_list";
+// selesai Tutorial Ke 5
+
+@import "components/card_dashboard";
+// selesai Tutorial Ke 6
+
+// SELESAI untuk FRONTED
