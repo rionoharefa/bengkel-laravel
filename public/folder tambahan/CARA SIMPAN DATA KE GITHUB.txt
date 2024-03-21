@@ -1,7 +1,7 @@
 git config --global user.email "rionoharefa17@gmail.com"
 git init
 git add .
-git remote add origin https://github.com/rionoharefa/project-frontend.git
+git remote add origin https://github.com/rionoharefa/bengkel-laravel.git
 git commit -m "first commit"
 git push -u origin master
 
